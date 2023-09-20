@@ -1,3 +1,7 @@
+// Дано: функція яка приймає масив чисел або стрічок.
+// Результат: вивести у консоль масив унікальних значень 
+// початкового масиву
+
 function unicFn(initialArray) {
   const isValid = initialArray.every(item => typeof item === 'string' || typeof item === 'number');
 

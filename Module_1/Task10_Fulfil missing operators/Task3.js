@@ -1,3 +1,9 @@
+// Дано: Функція яка приймає назва місяця у форматі = 
+// "DECEMBER" | "FEBRUARY" | "JULY" і тд.
+
+// Результат: Вивести у консоль назву пори року якій 
+// відповідає даний місяць. “summer” | “autumn” | “winter” | “spring”.
+
 function printSeasonByMonth(month) {
   switch (month) {
     case "December":

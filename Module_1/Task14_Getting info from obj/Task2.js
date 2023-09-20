@@ -1,3 +1,8 @@
+// Дано: функція яка приймає масив чисел
+// Результат: вивести у консоль "YES" якщо 
+// усі числа у масив парні та "NO" в іншому 
+// випадку
+
 function isEvenArray(initialArray) {
   let isEven = true;
   for (let i = 0; i < initialArray.length; i++) {
