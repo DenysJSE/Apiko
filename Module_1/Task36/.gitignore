@@ -1,0 +1,11 @@
+# Ignore Yarn lock file
+yarn.lock
+
+# Ignore the "node_modules" directory
+node_modules
+
+# Ignore the "dist" directory (output of your build process)
+dist
+
+# Ignore the ".cache" directory (e.g., cache folders created by tools)
+.cache
